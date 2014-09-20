@@ -5,7 +5,7 @@
 makeCacheMatrix <- function(m = matrix()) {
   mdat<-NULL
   set<-function(x){
-    mat<<-x
+    m<<-x
     mdat<<-NULL
   }
   ## Method to get and set the matrix
